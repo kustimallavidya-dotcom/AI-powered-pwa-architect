@@ -1,0 +1,5 @@
+{
+  "name": "AI PWA Architect",
+  "description": "An AI-powered tool to design, build, and troubleshoot Progressive Web Apps. Generates manifests, icons, and deployment guides for Netlify and Google Play Store.",
+  "requestFramePermissions": []
+}
