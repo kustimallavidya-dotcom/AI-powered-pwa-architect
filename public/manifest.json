@@ -1,13 +1,21 @@
 {
-  "background_color": "#ffffff",
-  "dir": "ltr",
-  "display": "standalone",
-  "name": "ai-powered-app-architect.netlify",
-  "orientation": "any",
-  "scope": "/",
-  "short_name": "ai app",
+  "name": "AI Powered App",
+  "short_name": "AI Architect",
+  "description": "App architect powered by AI",
   "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
   "theme_color": "#ffffff",
-  "id": "ai-powered-app-architect.netlify",
-  "description": "Created by manugademd"
+  "icons": [
+    {
+      "src": "/1765701694116.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/1765701694116.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
 }
