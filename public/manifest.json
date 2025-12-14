@@ -1,15 +1,16 @@
 {
   "name": "AI Powered App",
   "short_name": "AI Architect",
-  "description": "App architect powered by AI",
+  "description": "Advanced App Architect powered by AI",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#ffffff",
+  "theme_color": "#6200EA",
+  "orientation": "portrait",
   "icons": [
     {
       "src": "/icon.svg",
-      "sizes": "any",
+      "sizes": "512x512",
       "type": "image/svg+xml",
       "purpose": "any maskable"
     }

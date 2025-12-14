@@ -1,20 +1,42 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# AI PWA Architect
 
-# Run and deploy your AI Studio app
+An AI-powered tool to design, build, and troubleshoot Progressive Web Apps (PWA). This application helps developers generate manifests, icons, and deployment guides for Netlify and Google Play Store.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1NNhmFzFcLsqQnCiMavOBbGHSofeD4TUY
+- **AI Code Generation**: Generates `manifest.json`, `index.html`, and `sw.js` using Google Gemini AI.
+- **Icon Generator**: Creates custom SVG app icons programmatically.
+- **Troubleshooting**: AI assistant to analyze error logs from Netlify or Play Console.
+- **PWA Ready**: Fully compliant with PWA standards (Service Worker, Manifest, Offline support).
 
-## Run Locally
+## Tech Stack
 
-**Prerequisites:**  Node.js
+- React 19
+- Vite
+- Tailwind CSS
+- Google Gemini API (`@google/genai`)
 
+## Setup
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. Clone the repository.
+2. Create a `.env` file with your API key:
+   ```
+   API_KEY=your_gemini_api_key_here
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Run locally:
+   ```bash
+   npm run dev
+   ```
+
+## Deployment
+
+1. Build the project:
+   ```bash
+   npm run build
+   ```
+2. Deploy the `dist` folder to Netlify.
+3. Use [PWABuilder](https://www.pwabuilder.com) to generate your Android APK.
